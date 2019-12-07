@@ -4,6 +4,6 @@ require './brainfuck.rb'
 
 brainfuck = Brainfuck.new
 loop {
-  print ">>"
+  print "=) "
   puts brainfuck.run(readline)
 }
